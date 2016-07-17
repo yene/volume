@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0871971D38D65500A60758 /* ISSoundAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0871961D38D65500A60758 /* ISSoundAdditions.m */; };
 		AE5C5C2D1D34D86100A60758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C5C2C1D34D86100A60758 /* AppDelegate.m */; };
 		AE5C5C301D34D86100A60758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C5C2F1D34D86100A60758 /* main.m */; };
 		AE5C5C321D34D86100A60758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5C5C311D34D86100A60758 /* Assets.xcassets */; };
 		AE5C5C351D34D86100A60758 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5C5C331D34D86100A60758 /* MainMenu.xib */; };
+		AE5C5C3E1D34D89E00A60758 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE5C5C401D34D89E00A60758 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0871951D38D65500A60758 /* ISSoundAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSoundAdditions.h; sourceTree = "<group>"; };
+		AE0871961D38D65500A60758 /* ISSoundAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSoundAdditions.m; sourceTree = "<group>"; };
 		AE5C5C281D34D86100A60758 /* volume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C5C2B1D34D86100A60758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE5C5C2C1D34D86100A60758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +25,10 @@
 		AE5C5C311D34D86100A60758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5C5C341D34D86100A60758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AE5C5C361D34D86100A60758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5C5C421D34D8A500A60758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AE5C5C431D34D8B400A60758 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AE5C5C441D34D8B400A60758 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AE5C5C451D34DA1800A60758 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,7 @@
 		AE5C5C1F1D34D86100A60758 = {
 			isa = PBXGroup;
 			children = (
+				AE5C5C451D34DA1800A60758 /* README.md */,
 				AE5C5C2A1D34D86100A60758 /* volume */,
 				AE5C5C291D34D86100A60758 /* Products */,
 			);
@@ -55,6 +64,8 @@
 			children = (
 				AE5C5C2B1D34D86100A60758 /* AppDelegate.h */,
 				AE5C5C2C1D34D86100A60758 /* AppDelegate.m */,
+				AE0871951D38D65500A60758 /* ISSoundAdditions.h */,
+				AE0871961D38D65500A60758 /* ISSoundAdditions.m */,
 				AE5C5C311D34D86100A60758 /* Assets.xcassets */,
 				AE5C5C331D34D86100A60758 /* MainMenu.xib */,
 				AE5C5C361D34D86100A60758 /* Info.plist */,
@@ -67,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AE5C5C2F1D34D86100A60758 /* main.m */,
+				AE5C5C401D34D89E00A60758 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +124,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = AE5C5C1F1D34D86100A60758;
 			productRefGroup = AE5C5C291D34D86100A60758 /* Products */;
@@ -129,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5C5C321D34D86100A60758 /* Assets.xcassets in Resources */,
+				AE5C5C3E1D34D89E00A60758 /* Localizable.strings in Resources */,
 				AE5C5C351D34D86100A60758 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +156,7 @@
 			files = (
 				AE5C5C301D34D86100A60758 /* main.m in Sources */,
 				AE5C5C2D1D34D86100A60758 /* AppDelegate.m in Sources */,
+				AE0871971D38D65500A60758 /* ISSoundAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +167,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				AE5C5C341D34D86100A60758 /* Base */,
+				AE5C5C431D34D8B400A60758 /* de */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AE5C5C401D34D89E00A60758 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5C5C421D34D8A500A60758 /* en */,
+				AE5C5C441D34D8B400A60758 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -196,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -234,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -283,6 +308,7 @@
 				AE5C5C3B1D34D86100A60758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
